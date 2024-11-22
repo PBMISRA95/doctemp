@@ -1,4 +1,4 @@
-# DummyApp Documentation
+# DummyApp1 Documentation
 
 
 Welcome to the documentation for **DummyApp-SDK**, a software development kit designed to simplify task and user management. 
