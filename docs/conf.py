@@ -16,7 +16,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "DiMAT Documentation"
+project = "DimatApp Documentation"
 copyright = "2024, Materials Informatics Team at Fraunhofer IWM"
 author = "Materials Informatics, Fraunhofer IWM"
 release = "v1.0.0"

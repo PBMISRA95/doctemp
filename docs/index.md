@@ -1,7 +1,7 @@
-# DiMAT Documentations
+# Dimat Documentations
 
 
-Welcome to the documentation for **DIMATApp**, a software module designed to simplify task and user management. 
+Welcome to the documentation for **DimatApp**, a software module designed to simplify task and user management. 
 This guide provides an overview of its setup process, and key functionalities.
 
 
@@ -9,9 +9,9 @@ This guide provides an overview of its setup process, and key functionalities.
 :body: text-center.
 
 ---
-**DiMATApp Intro**
+**DimatApp Intro**
 
-Introduction to DiMATApp
+Introduction to DimatApp
 
 ```{link-button} dimatapp.html
 :text: About DimatApp
