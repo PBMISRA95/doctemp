@@ -19,13 +19,13 @@ This repository provides tools to help users create documentation for their appl
 
 ---
 
-## Introduction
+## 1. Introduction
 
 The **DiMatApp Docs** module simplifies the process of generating and managing application documentation using **Sphinx** with Markdown files as the primary format. Whether you prefer Docker, Linux, or VSCode, this guide provides steps to render and serve your documentation locally.
 
 ---
 
-## Local Rendering
+## 2. Local Rendering
 
 You can render the documentation locally using one of the methods below:
 
@@ -100,7 +100,7 @@ You can render the documentation locally using one of the methods below:
 
 ---
 
-## Contributing and Reporting Issues
+## 3. Contributing and Reporting Issues
 
 We welcome contributions and feedback!  
 
@@ -108,7 +108,7 @@ If you find an error or have a feature request, please create an issue in [this 
 
 ---
 
-## Advanced Usage
+## 4. Advanced Usage
 
 ### Customizing Sphinx Configuration
 
@@ -134,7 +134,7 @@ Refer to the [MyST-Parser documentation](https://myst-parser.readthedocs.io/) fo
 
 ---
 
-## FAQs
+## 5. FAQs
 
 **1. How do I add new pages to the documentation?**  
    - Create a new `.md` file in the `docs/source` directory.  
