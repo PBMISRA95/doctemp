@@ -1,4 +1,4 @@
-# DiMatApp Docs
+# DimatApp Docs
 
 This repository provides tools to help users create documentation for their applications using **Sphinx** with Markdown (`.md`) files as the primary source. Follow the instructions below for setup, rendering, and contributing.
 
@@ -21,7 +21,7 @@ This repository provides tools to help users create documentation for their appl
 
 ## 1. Introduction
 
-The **DiMatApp Docs** module simplifies the process of generating and managing application documentation using **Sphinx** with Markdown files as the primary format. Whether you prefer Docker, Linux, or VSCode, this guide provides steps to render and serve your documentation locally.
+The **DimatApp Docs** module simplifies the process of generating and managing application documentation using **Sphinx** with Markdown files as the primary format. Whether you prefer Docker, Linux, or VSCode, this guide provides steps to render and serve your documentation locally.
 
 ---
 
@@ -35,14 +35,14 @@ You can render the documentation locally using one of the methods below:
    Run the following command to build the image:
 
    ```bash
-   $ docker build -f Dockerfile.docs -t dimatapp-docs .
+   docker build -f Dockerfile.docs -t dimatapp-docs .
    ```
 
 2. **Start the Docker Container**  
    Start the server to render the documentation:
 
    ```bash
-   $ docker run -it --rm -v $PWD:/app -p 8000:8000 dimatapp-docs
+   docker run -it --rm -v $PWD:/app -p 8000:8000 dimatapp-docs
    ```
 
    The documentation will be available at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
@@ -55,8 +55,8 @@ You can render the documentation locally using one of the methods below:
    For Linux Debian-based systems:
 
    ```bash
-   $ sudo apt install pandoc graphviz default-jre
-   $ sudo apt-get install texlive-latex-recommended \
+   sudo apt install pandoc graphviz default-jre
+   sudo apt-get install texlive-latex-recommended \
                          texlive-latex-extra \
                          texlive-fonts-recommended \
                          latexmk
@@ -66,14 +66,14 @@ You can render the documentation locally using one of the methods below:
    Ensure Python dependencies are installed:
 
    ```bash
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 3. **Start the Documentation Server**  
    Render the documentation using Sphinx:
 
    ```bash
-   $ sphinx-autobuild docs/source docs/build/html
+   sphinx-autobuild --host 0.0.0.0 docs/ docs/_build/html
    ```
 
    The documentation will be accessible at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
@@ -89,7 +89,8 @@ You can render the documentation locally using one of the methods below:
    Run the following command in the terminal:
 
    ```bash
-   $ make html
+   cd docs
+   make html
    ```
 
 3. **Open Documentation with Live Server**  
@@ -141,12 +142,11 @@ Refer to the [MyST-Parser documentation](https://myst-parser.readthedocs.io/) fo
    - Add the file to the `toctree` in the `index.md` file. Example:
 
      ```markdown
-     ```{toctree}
-     :maxdepth: 2
-     :caption: Contents:
+      {toctree}
+      :maxdepth: 2
+      :caption: Introduction:
 
-     new_page.md
-     ```
+      new_page.md
      ```
 
 **2. Can I use reStructuredText (`.rst`) along with Markdown?**  
@@ -168,13 +168,13 @@ Refer to the [MyST-Parser documentation](https://myst-parser.readthedocs.io/) fo
      1. Run the following command to delete the `_build` directory:
 
         ```bash
-        $ make clean
+        make clean
         ```
 
      2. After cleaning, rebuild the documentation using:
 
         ```bash
-        $ make html
+        make html
         ```
 
      This ensures that the documentation is built fresh and includes only the latest changes.
