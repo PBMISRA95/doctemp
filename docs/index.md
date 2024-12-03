@@ -1,37 +1,37 @@
-# DummyApp1 Documentation
+# DiMAT Documentations
 
 
-Welcome to the documentation for **DummyApp-SDK**, a software development kit designed to simplify task and user management. 
-This guide provides an overview of the SDK, its setup process, and key functionalities.
+Welcome to the documentation for **DIMATApp**, a software module designed to simplify task and user management. 
+This guide provides an overview of its setup process, and key functionalities.
 
 
 ````{panels}
 :body: text-center.
 
 ---
-**DummyApp**
+**DiMATApp Intro**
 
-Introduction to DummyApp
+Introduction to DiMATApp
 
-```{link-button} dummyapp.html
-:text: About DummyApp
+```{link-button} dimatapp.html
+:text: About DimatApp
 :classes: btn-outline-primary stretched-link
 
 ---
-**DummyApp**
+**DimatApp Detailed**
 
- Overw of the DummyApp
+ Detailed Overview of the DimatApp
 
-```{link-button} dummyapp/module1.html
-:text: Basics of DummyAppp
+```{link-button} dimatapp/module1.html
+:text: Basics of DimatApp
 :classes: btn-outline-primary stretched-link
 
 ---
 **Tutorials**
 
-Get Started with using DummyApp.
+Get Started with using DimatApp.
 
-```{link-button} dummyapp/tutorials/1_registering_data.html
+```{link-button} dimatapp/tutorials/1_registering_data.html
 :text: Jump to the tutorial
 :classes: btn-outline-primary stretched-link
 
@@ -47,19 +47,19 @@ Feel free to report any issues/missing information so we can take a look into it
 :maxdepth: 4
 :glob:
 
-DummyApp Overview<dummyapp>
+DimatApp Overview<dimatapp>
 ```
 
 
 ```{toctree}
 :hidden: true
-:caption: DummyApp Details
+:caption: DimatApp Details
 :maxdepth: 4
 :glob:
 
-dummyapp/module1
-dummyapp/module2
-dummyapp/appflow
+dimatapp/module1
+dimatapp/module2
+dimatapp/appflow
 
 ```
 
@@ -69,6 +69,6 @@ dummyapp/appflow
 :maxdepth: 4
 :glob:
 
-dummyapp/tutorials/*
+dimatapp/tutorials/*
 
 ```

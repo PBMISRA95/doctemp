@@ -1,6 +1,6 @@
-# DummyApp Application Flow
+# DimatApp Application Flow
 
-This document explains the flow of DummyApp, highlighting interactions between its components: **Frontend**, **Backend**, **ML Model**, and **Database**.
+This document explains the flow of DimatApp, highlighting interactions between its components: **Frontend**, **Backend**, **ML Model**, and **Database**.
 Below is the diagram describing the control flow in the DummyApp application.
 
 ![DummyApp Flow](../assets/images/appflow.jpg)

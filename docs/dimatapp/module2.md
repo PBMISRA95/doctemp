@@ -1,4 +1,4 @@
-# Module 2: Sending Data from DummyApp
+# Module 2: Sending Data from DimatApp
 
 ## Overview
 

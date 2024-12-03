@@ -16,7 +16,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "DSMS Documentation"
+project = "DiMAT Documentation"
 copyright = "2024, Materials Informatics Team at Fraunhofer IWM"
 author = "Materials Informatics, Fraunhofer IWM"
 release = "v1.0.0"
@@ -67,13 +67,14 @@ def setup(app):
 # a list of builtin themes.
 
 html_theme = "sphinx_book_theme"
-html_logo = "assets/images/dummyapp_logo.jpg"
+html_logo = "assets/images/dimat_logo.jpg"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 #   "style_nav_header_background": "#4472c4",  : Blue of DSMS
 #   "style_nav_header_background": "#109193",  : Green of DSMS
+
 html_static_path = ["_static"]
 templates_path = ["_templates"]
 html_theme_options = {
@@ -87,14 +88,14 @@ nbsphinx_execute = "never"
 latex_documents = [
     (
         "index",
-        "dsms_docs.tex",
-        "DSMS docs",
+        "DiMAT_docs.tex",
+        "DiMAT docs",
         ("Materials Informatics team at Fraunhofer IWM"),
         "manual",
         "false",
     )
 ]
-latex_logo = "assets/images/DSMS_logo.png"
+latex_logo = "assets/images/dimat_logo.jpg"
 latex_elements = {"figure_align": "H"}
 
 nbsphinx_allow_errors = True
