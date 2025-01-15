@@ -1,7 +1,7 @@
 # Dimat Documentations
 
 
-Welcome to the documentation for **DimatApp**, a software module designed to simplify task and user management. 
+Welcome to the documentation for **Dimat-App**, a software module designed to simplify task and user management. 
 This guide provides an overview of its setup process, and key functionalities.
 
 
