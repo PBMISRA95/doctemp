@@ -32,7 +32,7 @@ You can render the documentation locally using one of the methods below:
 ### Docker
 
 1. **Build the Docker Image**  
-   Run the following command to build the image:
+   Run the following below command to build the image:
 
    ```bash
    docker build -f Dockerfile.docs -t dimatapp-docs .
