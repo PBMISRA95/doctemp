@@ -1,6 +1,6 @@
 # DimatApp Docs
 
-This repository provides tools to help users create documentation for their applications using **Sphinx** with Markdown (`.md`) files as the primary source. Follow the instructions below for setup, rendering, and contributing.
+This repository provides tools to help users create the documentation for their applications using **Sphinx** with Markdown (`.md`) files as the primary source. Follow the instructions below for setup, rendering, and contributing.
 
 ---
 
